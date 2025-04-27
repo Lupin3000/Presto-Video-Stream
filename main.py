@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
             if len(buffer) > MAX_BUFFER_SIZE:
                 print("[WARNING] Buffer overflow, clearing buffer")
-                buffer.clear()
+                buffer = bytearray()
                 gc.collect()
 
             while True:
