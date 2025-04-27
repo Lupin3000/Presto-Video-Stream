@@ -14,7 +14,7 @@ The code in this repository is used to stream a video from DFRobot ESP32-S3 AI C
 
 ```shell
 # clone repository
-$ git clone ...
+$ git clone https://github.com/Lupin3000/Presto-Video-Stream.git
 
 # change into cloned directory
 $ cd Presto-Video-Stream/
